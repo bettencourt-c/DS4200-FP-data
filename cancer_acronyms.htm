@@ -1,0 +1,576 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Acronym</th>
+      <th>Cancer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AA</td>
+      <td>Adrenal adenoma</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AC</td>
+      <td>Adrenal cortex</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ACA</td>
+      <td>Adrenal cortex adenoma</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AG</td>
+      <td>Anaplastic oligodendroglioma</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ALL</td>
+      <td>Acute lymphoblastic leukemia</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>AML</td>
+      <td>Acute myeloid leukemia</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>AS</td>
+      <td>Angiosarcoma</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>B</td>
+      <td>Brain</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>BCC</td>
+      <td>Basal cell carcinoma</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>BLCA</td>
+      <td>Bladder</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>BLTC</td>
+      <td>Bladder transitional cell</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>BRCA</td>
+      <td>Breast adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>BRCAL</td>
+      <td>Breast lobular</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>BT</td>
+      <td>Billiary tract</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>CANCER</td>
+      <td>Any cancer type</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>CANCER-PR</td>
+      <td>Cancer predisposition</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>CER</td>
+      <td>Cervix</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>CLL</td>
+      <td>Chronic lymphocytic leukemia</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>CM</td>
+      <td>Cutaneous melanoma</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>CM-PR</td>
+      <td>Cutaneous melanoma predisposition</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>CML</td>
+      <td>Chronic myeloid leukemia</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>CMP</td>
+      <td>Chronic myeloproliferitve neoplasm</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>COC</td>
+      <td>Colon carcinoma</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>COC-PR</td>
+      <td>Colon carcinoma predisposition</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>COCA</td>
+      <td>Colon adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>COREAD</td>
+      <td>Colorectal adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>DEST</td>
+      <td>Desmoid tumor</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>DT-PR</td>
+      <td>Digestive tract predisposition</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>ED</td>
+      <td>Endometrium</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>EDA</td>
+      <td>Endometrial adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>ESCA</td>
+      <td>Esophagous</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>ESSC</td>
+      <td>Esophagous squamous cell</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>FH</td>
+      <td>Fibrous histiocytoma</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>FL</td>
+      <td>Follicular lymphoma</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>G</td>
+      <td>Glioma</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>GIST</td>
+      <td>Gastrointestinal stromal</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>GIST-PR</td>
+      <td>Gastrointestinal stromal predisposition</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>HC</td>
+      <td>Hepatic carcinoma</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>HC-PR</td>
+      <td>Hepatic carcinoma predisposition</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>HCL</td>
+      <td>Hairy-Cell leukemia</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>HEMATO</td>
+      <td>Hematologic malignancies</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>HEMATO-PR</td>
+      <td>Hematologic malignancies predisposition</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>HES</td>
+      <td>Hyper eosinophilic advanced snydrome</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>HISEC</td>
+      <td>Erdheim-Chester histiocytosis</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>HISLC</td>
+      <td>Lagerhans cell histiocytosis</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>HNC</td>
+      <td>Head an neck</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>HNSC</td>
+      <td>Head an neck squamous</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>L</td>
+      <td>Lung</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>LUAD</td>
+      <td>Lung adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>LUSC</td>
+      <td>Lung squamous cell</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>LY</td>
+      <td>Lymphoma</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>MA</td>
+      <td>Malignant astrocytoma</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>MALT</td>
+      <td>MALT lymphoma</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>MB</td>
+      <td>Medulloblastoma</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>MCL</td>
+      <td>Mantle cell lymphoma</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>MCLK</td>
+      <td>Mast cell leukemia</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>MDPS</td>
+      <td>Myelodisplasic proliferative syndrome</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>MEN</td>
+      <td>Meningioma</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>MERC</td>
+      <td>Merkel cell carcinoma</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>MGCT</td>
+      <td>Male germ cell tumor</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>MKB</td>
+      <td>Megakaryoblastic leukemia</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>MM</td>
+      <td>Multiple myeloma</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>MML</td>
+      <td>Myelomonocyitic leukemia</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>MRT-PR</td>
+      <td>Malignant rhabdoid tumor predisposition</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>MY</td>
+      <td>Myelofibrosis</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>MYMA</td>
+      <td>Myeloma</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>NB</td>
+      <td>Neuroblastoma</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>NEU</td>
+      <td>Neuroendocrine</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>NHLY</td>
+      <td>Non-hodking lymphoma</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>NSCLC</td>
+      <td>Non-small cell lung</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>NSMGCT</td>
+      <td>Non-seminomatous germ cell tumor</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>NSPH</td>
+      <td>Nasopharyngeal</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>OCSC</td>
+      <td>Oral cavity squamous cell</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>OS</td>
+      <td>Osteosarcoma</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>OV</td>
+      <td>Ovary</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>OVE</td>
+      <td>Ovary epithelial cell</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>OVG</td>
+      <td>Ovary granulosa cell</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>PA</td>
+      <td>Pancreas</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>PATH</td>
+      <td>Parathyroid adenoma</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>PG</td>
+      <td>Pediatric glioma</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>PIA</td>
+      <td>Pilocityc astrocytoma</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>PRAD</td>
+      <td>Prostate adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>PV</td>
+      <td>Polycitemia vera</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>R</td>
+      <td>Renal</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>R-PR</td>
+      <td>Renal predisposition</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>RB</td>
+      <td>Retinoblastoma</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>RCCC</td>
+      <td>Renal clear cell</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>REC</td>
+      <td>Rectal carcinoma</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>RHBDS</td>
+      <td>Rhabdomyosarcoma</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>RPC</td>
+      <td>Renal papillary cell</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>SCC</td>
+      <td>Squamous cell carcinoma</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>SCC-PR</td>
+      <td>Squamous cell carcinoma predisposition</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>SCGS</td>
+      <td>Sex-cord gonadal stromal</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>SCLC</td>
+      <td>Small cell lung</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>SK-PR</td>
+      <td>Skin predisposition</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>SM</td>
+      <td>Systemic mastocytosis</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>SOLID-PR</td>
+      <td>Solid tumors predisposition</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>ST</td>
+      <td>Stomach</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>ST-PR</td>
+      <td>Stomach predisposition</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>STAD</td>
+      <td>Stomach adenocarcinoma</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>T</td>
+      <td>Testis</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>TCALL</td>
+      <td>T-cell acute lymphoblastic leukemia</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>TCPL</td>
+      <td>T-cell prolymphocytic leukemia</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>TER</td>
+      <td>Teratoma</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>TH</td>
+      <td>Thyroid</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>THCA</td>
+      <td>Thyroid carcinoma</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>THF</td>
+      <td>Thyroid follicular</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>THM</td>
+      <td>Thyroid medullary</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>THYM</td>
+      <td>Thymic</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>TOSC</td>
+      <td>Tongue squamous cell</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>UTH</td>
+      <td>Urothelial</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>UVM</td>
+      <td>Uveal melanoma</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>WT</td>
+      <td>Wilms tumor</td>
+    </tr>
+  </tbody>
+</table>
