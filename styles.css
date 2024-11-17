@@ -141,6 +141,7 @@ hr {
 
 .data4 {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: flex-start;
     jusity-content: space-between;
@@ -148,12 +149,14 @@ hr {
 }
 
 .left {
-    min-width: 40%;
+    width: 40%;
+    display: block;
 }
 
 .right {
     max-width: 60%;
     text-align: justify;
+    display: block;
 }
 
 .right p {
