@@ -145,18 +145,16 @@ hr {
     justify-content: space-between; 
     align-items: flex-start;
     width: 100%;
-y
+}
 
 .left {
-    flex: 0 1 auto;
+    flex: 1;
     display: block;
-    margin-right: 20px;
 }
 
 .right {
-    flex: 1;
+    flex: 2;
     display: block;
-    text-align: justify;
 }
 
 .contact-info {
