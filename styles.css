@@ -25,6 +25,9 @@ header {
     text-align: center;
 } 
 
+hr {
+    margin-bottom: 2%;
+}
 
 .content-container {
     font-family: Helvetica, sans-serif;
@@ -69,7 +72,7 @@ header {
     height: 100% !important;  
     width: 80% !important; 
     object_fit: contain;
-    margin: 0;
+    margin: 0 auto;
     border: none;
     display: block;
     margin-bottom: 10px;
