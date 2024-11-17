@@ -12,7 +12,7 @@ html {
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
-    padding: 7.5%;
+    padding: 5%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
 } 
@@ -26,10 +26,10 @@ header {
 } 
 
 
-.content-container, .data4 {
+.content-container {
     font-family: Helvetica, sans-serif;
     margin: auto;
-    padding: 2.5%;
+    padding: 4%;
     background-color: RGB(236,236,236);
     color: RGB(44,45,43);
 }
@@ -48,7 +48,7 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
-    margin: 0.25%;
+    margin: 0.5%;
     padding: 0;
 
 }
@@ -67,7 +67,7 @@ header {
 }
 .content-container iframe {
     height: 100% !important;  
-    width: 100% !important; 
+    width: 80% !important; 
     object_fit: contain;
     margin: 0;
     border: none;
@@ -79,11 +79,17 @@ header {
     font-size: 1.1em;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .content-container li {
     margin-bottom: 5px;
     line-height: 1.5;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .table {
@@ -92,8 +98,15 @@ header {
     overflow-wrap: break-word;
     text-align: center;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 0.25%;
     padding: 0;
+}
+
+.data4 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    width: 100%;
 }
 
 .left {
