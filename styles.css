@@ -144,10 +144,12 @@ hr {
     justify-content: space-between; 
     align-items: flex-start;
     width: 100%;
+    gap: 20px;
 }
 
 .left {
     flex: 1 1 40%;
+    min-width: 300px !important;
     display: block;
 }
 
