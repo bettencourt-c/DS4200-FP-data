@@ -151,7 +151,7 @@ hr {
     flex: 1 1 40%;
     min-width: 300px !important;
     display: block;
-    background-color: lightgreen;
+    background-color: lightgreen !important;
     border: 2px solid blue;
 }
 
@@ -159,7 +159,7 @@ hr {
     flex: 2 1 60%;
     display: block;
     text-align: justify;
-    background-color: pink;
+    background-color: pink !important;
     border: 2px solid purple;
 }
 
