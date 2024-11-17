@@ -140,10 +140,10 @@ hr {
 }
 
 .data4 {
-    display: flex;
+    display: flex !important;
     justify-content: space-between; 
     align-items: flex-start;
-    width: 100%;
+    width: 100% !important;
     gap: 20px;
 }
 
