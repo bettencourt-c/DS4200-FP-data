@@ -24,7 +24,7 @@
         <main> 
             <div class='content-container'>
                 <h1>Dataset 1: Chromosome data</h1>
-                <p>The first dataset is a table from the Piovesan et al's <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6391780/' target='_blank'>BMC Research Notes Journal</a>. There was no place to download the file, so the .csv file was made manually. This dataset has 24 rows, one for each of the human chromosomes, and 6 columns that provide the following: chromosome number, length (bp), length (cm), weight (pg), weight (fg), and GC%. For this dataset, only the chromosome number and length in base pairs (bp) are necessary for this project, and no cleaning was necessary.
+                <p>The first dataset is a table from the Piovesan et al's BMC Research Notes Journal [<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6391780/' target='_blank'>3</a>]. There was no place to download the file, so the .csv file was made manually. This dataset has 24 rows, one for each of the human chromosomes, and 6 columns that provide the following: chromosome number, length (bp), length (cm), weight (pg), weight (fg), and GC%. For this dataset, only the chromosome number and length in base pairs (bp) are necessary for this project, and no cleaning was necessary.
                 </p>
                 <div class='table-container1'>
                     <div class='table'><b>Table 1. Human Chromosome Lengths and Weights</b></div>
@@ -33,7 +33,7 @@
                 <hr>
                 <br>
                 <h1>Dataset 2: Cancerous mutations and associated responses to therapeutics</h1>
-                <p>This dataset was downloaded from the site, <a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>Cancer Genome Interpreter Annotates The Biological And Clinical Relevance Of Tumor Alterations</a>. This dataset contains 1170 rows and 20 columns. Within this, the relevant columns are the gene, drug status, drug family, drug, association, and primary tumor type full name. If a drug targets multiple mutations, then it would have multiple rows, one for each gene that is mutated. No cleaning was necessary for this dataset.
+                <p>This dataset was downloaded from the site, Cancer Genome Interpreter Annotates The Biological And Clinical Relevance Of Tumor Alterations[<a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>4</a>]. This dataset contains 1170 rows and 20 columns. Within this, the relevant columns are the gene, drug status, drug family, drug, association, and primary tumor type full name. If a drug targets multiple mutations, then it would have multiple rows, one for each gene that is mutated. No cleaning was necessary for this dataset.
                     <br><br>
                     An example row with the relevant attributes would provide the following information: 
                 </p>
@@ -52,7 +52,7 @@
                 <hr>
                 <br>
                 <h1>Dataset 3: Validated cancer-associated mutations</h1>
-                <p>The next dataset is a catalog of validated oncogenic mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the <a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>Cancer Genome Interpreter</a>. There are 5601 rows, each for a different oncogenic mutation, and there are 9 columns. The relevant columns in this dataset are the following: gene, gDNA, context, and cancer_acronym. The context column states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary. The gDNA column required the most cleaning, as its raw value uses <a href='https://hgvs-nomenclature.org/stable/recommendations/general/' target='_blank'>HGVS nomenclature</a>, which is a combination of strings and integers (i.e. chr7:g.87053221C>T). 
+                <p>The next dataset is a catalog of validated oncogenic mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the Cancer Genome Interpreter [<a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>5</a>]. There are 5601 rows, each for a different oncogenic mutation, and there are 9 columns. The relevant columns in this dataset are the following: gene, gDNA, context, and cancer_acronym. The context column states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary. The gDNA column required the most cleaning, as its raw value uses HGVS nomenclature, which is a combination of strings and integers (i.e. chr7:g.87053221C>T) [<a href='https://hgvs-nomenclature.org/stable/recommendations/general/' target='_blank'>6</a>]. 
                 </p>     
                 <div class='table-container'>
                     <div class='table'><b>Table 3. Original HGVS Cancer-associated mutations</b></div>
