@@ -28,6 +28,8 @@
                 </p>
                 <div class='table'><b>Table 1. Human Chromosome Lengths and Weights</b>
                 <iframe src='mini_chromosome_data.htm' ></iframe>
+                <hr>
+                <br>
                 <h1>Dataset 2: Cancerous mutations and associated responses to therapeutics</h1>
                 <p>This dataset was downloaded from the site, <a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>Cancer Genome Interpreter Annotates The Biological And Clinical Relevance Of Tumor Alterations</a>. This dataset contains 1170 rows and 20 columns. Within this, the relevant columns are the gene, drug status, drug family, drug, association, and primary tumor type full name. If a drug targets multiple mutations, then it would have multiple rows, one for each gene that is mutated. No cleaning was necessary for this dataset.
                     <br><br>
@@ -43,6 +45,8 @@
                     </ul>
                 <div class='table'><b>Table 2. Clinical Relevance of Tumor Mutations</b>
                 <iframe src='mini_drug.htm' ></iframe>
+                <hr>
+                <br>
                 <h1>Dataset 3: Validated cancer-associated mutations</h1>
                 <p>The next dataset is a catalog of validated oncogenic mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the <a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>Cancer Genome Interpreter</a>. There are 5601 rows, each for a different oncogenic mutation, and there are 9 columns. The relevant columns in this dataset are the following: gene, gDNA, context, and cancer_acronym. The context column states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary. The gDNA column required the most cleaning, as its raw value uses <a href='https://hgvs-nomenclature.org/stable/recommendations/general/' target='_blank'>HGVS nomenclature</a>, which is a combination of strings and integers (i.e. chr7:g.87053221C>T). 
                 </p>     
@@ -53,6 +57,8 @@
                 </p>
                 <div class='table'><b>Table 4. Processed HGVS Cancer-associated mutations</b>
                 <iframe src='mini_cleaned_mutation_data.htm' ></iframe>
+                <hr>
+                <br>
                 <h1>Dataset 4: Cancer acronyms</h1>
                 <div class='data4'>
                     <div id='left'>
