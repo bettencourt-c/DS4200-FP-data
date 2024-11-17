@@ -110,15 +110,17 @@ header {
 }
 
 .left {
+    flex: 1;
     max-width: 20%;
-    min-height: 100%;
-}
-
-.right {
-    max-width: 78%;
     min-height: 100%;
     display: grid;
     place-items: center;
+}
+
+.right {
+    flex: 4;
+    max-width: 78%;
+    min-height: 100%;
 }
 
 .contact-info {
