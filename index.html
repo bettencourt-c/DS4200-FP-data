@@ -26,11 +26,12 @@
             <h1>Dataset 1: Chromosome data</h1>
             <p>The first dataset is a table from the Piovesan et al's <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6391780/' target='_blank'>BMC Research Notes Journal</a>. There was no place to download the file, so the .csv file was made manually. This dataset has 24 rows, one for each of the human chromosomes, and 6 columns that provide the following: chromosome number, length (bp), length (cm), weight (pg), weight (fg), and GC%. For this dataset, only the chromosome number and length in base pairs (bp) are necessary for this project, and no cleaning was necessary.
             </p>
-            <iframe src='chromosome_data.htm' </iframe>
+            <iframe src='mini_chromosome_data.htm' </iframe>
             <h1>Dataset 2: Cancerous mutations and associated responses to therapeutics</h1>
             <p>This dataset was downloaded from the site, <a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>Cancer Genome Interpreter Annotates The Biological And Clinical Relevance Of Tumor Alterations</a>. This dataset contains 1170 rows and 20 columns. Within this, the relevant columns are the gene, drug status, drug family, drug, association, and primary tumor type full name. If a drug targets multiple mutations, then it would have multiple rows, one for each gene that is mutated. No cleaning was necessary for this dataset.
                 <br><br>
                 An example row with the relevant attributes would provide the following information: 
+            </p>
                 <ul>
                     <li><b>Drug:</b> the name of the cancer drug</li>
                     <li><b>Drug family:</b> the type of drug</li>
@@ -39,17 +40,18 @@
                     <li><b>Gene:</b> the gene that this drug is associated with</li>
                     <li><b>Association:</b> whether the drug works or does not work against that gene</li>
                 </ul>
+            <iframe src='mini_drug.htm' </iframe>
             <h1>Dataset 3: Validated cancer-associated mutations</h1>
             <p>The next datasetis a catalog of validated oncogenic mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the Cancer Genome Interpreter (Cancer Genome Interpreter, 2018). There are 5601 rows, each for a different oncogenic mutation, and there are 9 columns. The relevant columns in this dataset are the following: gene, gDNA, context, and cancer_acronym. The context column states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary. The gDNA column required the most cleaning, as its raw value uses HGVS nomenclature, which is a combination of strings and integers (i.e. chr7:g.87053221C>T) (HGVS Nomenclature). 
             </p>     
-            <iframe src='original_mutation_data.htm' </iframe>
+            <iframe src='mini_original_mutation_data.htm' </iframe>
             <p>The first section “chr7” indicates what chromosome number the mutation is located on. The “g” denotes that the following values are written in a linear genomic reference sequence. The numbers that follow are the location of the mutation in terms of base pairs. Lastly, the “C>T” indicates that there has been a point mutation from cytosine to thymine. Unfortunately, this is the simplest type of HGVS notation in this dataset, as there are multiple types of mutations that require different types of formats. For example, a deletion-insertion mutation (chr2:g.29445449_29445451delinsGCT) needs to provide two locations that indicate the start and end of the deletion, as well as the base pair sequence that is being inserted into the genome at that location. Another example is a mutation that could have two different results, or one that occurs in multiple locations. This value (chr2:g.29443695G>T__chr2:g.29443695G>C__chr2:g.29443697A>G) is an example that includes both, where at the same location, the guanine can be changed to either thymine or cytosine. This mutation also has a change that occurs two base pairs down. Regardless, different changes are separated by two underscores, “__”. 
                 <br><br>
 Since each of these different notations require extensive cleaning, an HGVS reader was created to convert the HGVS notation into columns that were cleaned to ensure compatibility with the Python language. Below is the final cleaned dataset that was used for all further analysis.
             </p>
-            <iframe src='cleaned_mutation_data.htm' </iframe>
+            <iframe src='mini_cleaned_mutation_data.htm' </iframe>
             <h1>Dataset 4: Cancer acronyms</h1>
-            <iframe src='cancer_acronyms.htm' </iframe>
+            <iframe src='mini_cancer_acronyms.htm' </iframe>
             <p>The final dataset comes from the additional .csv in the zip file from dataset 3.  It contains two columns, one for the cancer acronym and one for the full cancer name. It should be noted that these full names match the “Primary Tumor type full name” column values in dataset 2. There are also 113 rows in this dataset, each corresponding to a different type of cancer.
             </p>
         </div>
