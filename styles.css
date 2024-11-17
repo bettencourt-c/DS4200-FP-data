@@ -151,12 +151,16 @@ hr {
     flex: 1 1 40%;
     min-width: 300px !important;
     display: block;
+    background-color: lightgreen;
+    border: 2px solid blue;
 }
 
 .right {
     flex: 2 1 60%;
     display: block;
     text-align: justify;
+    background-color: pink;
+    border: 2px solid purple;
 }
 
 .contact-info {
