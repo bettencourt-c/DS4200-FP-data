@@ -90,6 +90,7 @@ hr {
 .content-container iframe {
     height: 100% !important;  
     width: 100% !important; 
+    justify-content: center;
     object_fit: contain;
     margin: 0 auto;
     border: none;
@@ -143,6 +144,7 @@ hr {
 .right {
     max-width: 78%;
     min-height: 100%;
+    display: block;
 }
 
 .contact-info {
