@@ -12,7 +12,7 @@ html {
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
-    padding: 5%;
+    padding: 7.5%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
 } 
@@ -26,7 +26,7 @@ header {
 } 
 
 
-.content-container {
+.content-container, .data4 {
     font-family: Helvetica, sans-serif;
     margin: auto;
     padding: 2.5%;
@@ -48,7 +48,7 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
-    margin: 0;
+    margin: 0.25%;
     padding: 0;
 
 }
@@ -80,9 +80,19 @@ header {
     margin-bottom: 10px;
 }
 
-.content-container ul li {
+.content-container li {
     margin-bottom: 5px;
     line-height: 1.5;
+}
+
+.table {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
 }
 
 .left {
