@@ -135,10 +135,8 @@ hr {
 }
 
 .left {
-    max-width: 30%;
+    min-width: 30%;
     min-height: 100%;
-    display: grid;
-    place-items: center;
 }
 
 .right {
