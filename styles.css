@@ -148,13 +148,14 @@ hr {
 }
 
 .left {
-    flex: 1;
+    flex: 1 1 auto;
     display: block;
 }
 
 .right {
-    flex: 2;
+    flex: 2 1 auto;
     display: block;
+    text-align: justify;
 }
 
 .contact-info {
