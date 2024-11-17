@@ -51,11 +51,11 @@ hr {
 }
 
 .content-container h1 {
-    max-width: 100%;
+    width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
-    margin: 0.5%;
+    margin: 0;
     padding: 0;
 
 }
@@ -77,10 +77,10 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: flex-start;
+    align-items: center;
     height: 100%;  
     width: 80%; 
-    margin: 0;
+    margin: 0 auto;
     border: none;
     display: block;
     margin-bottom: 2%;
@@ -94,6 +94,7 @@ hr {
     border: none;
     display: block;
     margin-bottom: 10px;
+    overflow-y: hidden
 }
 
 .content-container ul {
