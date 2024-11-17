@@ -149,12 +149,12 @@ hr {
 }
 
 .left {
-    width: 40%;
+    flex: 1 1 40%;
     display: block;
 }
 
 .right {
-    max-width: 60%;
+    flex: 1 1 60%;
     text-align: justify;
     display: block;
 }
