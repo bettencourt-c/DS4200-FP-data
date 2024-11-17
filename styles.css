@@ -68,6 +68,7 @@ header {
 .content-container iframe {
     height: 100% !important;  
     width: 100% !important; 
+    object_fit: contain;
     margin: 0;
     border: none;
     display: block;
