@@ -143,6 +143,7 @@ hr {
     display: flex;
     width: 100%;
     align-items: flex-start;
+    jusity-content: space-between;
     gap: 20px;
 }
 
@@ -151,7 +152,7 @@ hr {
 }
 
 .right {
-    flex: 2 1 60%;
+    flex: 1 1 60%;
     max-width: 60%;
     text-align: justify;
 }
@@ -171,11 +172,12 @@ hr {
 
 .table-container5 {
     width: 100%;
+    height: 100%;
 }
 
 .table-container iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
     border: none;
     display: block;
         }
