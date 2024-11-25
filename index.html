@@ -61,8 +61,13 @@
                 <hr>
                 <br>
                 <h1>Dataset 3: Validated cancer-associated mutations</h1>
-                <p>The next dataset is a catalog of validated mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the Cancer Genome Interpreter [<a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>5</a>]. There are 5601 rows, each for a different mutation, and there are 9 columns. The relevant columns in this dataset are the following: gene, gDNA, context, and cancer_acronym. The context column states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary. The gDNA column required the most cleaning, as its raw value uses Human Genome Variation Society (HGVS) nomenclature, which is a combination of strings and integers (i.e. chr7:g.87053221C>T) [<a href='https://hgvs-nomenclature.org/stable/recommendations/general/' target='_blank'>6</a>]. 
-                </p>     
+                <p>The next dataset is a catalog of validated mutations, which are associated with predispositions of cancer or have been proven to drive tumor growth. This dataset was also downloaded from the Cancer Genome Interpreter [<a href='https://www.cancergenomeinterpreter.org/biomarkers' target='_blank'>5</a>]. There are 5601 rows, each for a different mutation, and there are 9 columns. The relevant columns in this dataset are the following:
+                </p>
+                <ul>
+                    <li><b>Gene:</b> the name of the gene</li>
+                    <li><b>gDNA:</b> its raw value uses Human Genome Variation Society (HGVS) nomenclature to denote a mutation, which is a combination of strings and integers (i.e. chr7:g.87053221C>T) [<a href='https://hgvs-nomenclature.org/stable/recommendations/general/' target='_blank'>6</a>]</li>
+                    <li><b>Context:</b> states whether a mutation is somatic, or on the germline, which is relevant since germline mutations are hereditary</li>
+                    <li><b>Cancer acronym:</b> the type of associated cancer, written as an acronym</li>
                 <div class='table-container'>
                     <div class='table'><b>Table 3. Original HGVS Cancer-associated mutations</b></div>
                     <iframe src='mini_original_mutation_data.htm' ></iframe>
