@@ -143,7 +143,8 @@ hr {
 }
 
 .table {
-    max-width: 100%;
+    min-width: 100% !important;
+    min-height: 100% !important;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
