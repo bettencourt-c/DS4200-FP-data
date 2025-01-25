@@ -29,6 +29,11 @@ hr {
     margin-bottom: 2%;
 }
 
+table {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+}
 .content-container {
     display: flex;
     flex-direction: column;
